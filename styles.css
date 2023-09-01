@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+    background: radial-gradient(circle,#24246e,#06051f);
+    height: 2500px;
+}
+nav {
+	position: fixed;
+	width: 100%;
+    padding: 15px;
+	display: flex;
+	justify-content: center;
+    background-color: #0000008e;
+    backdrop-filter: blur(95px);
+   
+}
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-right: 25px;
+    font-family: 'poppins', sans-serif ;
+
+}
+nav a.logo {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.home:hover{
+    color: crimson;
+}
+.catalog:hover{
+    color: crimson;
+}
+.collection:hover{
+    color: crimson;
+}
+.about:hover{
+    color: crimson;
+}
+.socials a {
+	text-decoration: none;
+	background: rgb(255, 255, 255);
+	color: #000000;
+	padding: 5px 25px;
+    position: fixed;
+    border-radius: 10px;
+    top: 16px;
+    left: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.socials a:hover{
+    text-decoration: none;
+	background: linear-gradient(rgb(0, 140, 255), rgb(0, 174, 255));
+	color: #ffffff;
+	padding: 5px 25px;
+    position: fixed;
+    border-radius: 10px;
+    top: 16px;
+    left: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

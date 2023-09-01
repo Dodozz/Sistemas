@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url(images/go.jpg);
+	background-repeat: no-repeat;
+	height: 1100vh;
+}
+
+
+
+nav {
+	position: fixed;
+	width: 100%;
+    padding: 15px;
+	display: flex;
+	justify-content: center;
+    background-color: #000000;
+   
+}
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-right: 25px;
+    font-family: poppins;
+
+}
+nav a.logo {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+
+.subnav {
+    position: fixed;
+	backdrop-filter: blur(15px);
+	width: 100%;
+    padding: 9px;
+    margin: 68px auto;
+	display: flex;
+	justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.137),rgba(255, 255, 255, 0.068));
+}
+
+div.subnav a {
+    text-decoration: none;
+	font-size: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+    font-family: poppins;
+	margin-right: 15px;
+}
+
+.home:hover{
+    color: crimson;
+}
+.catalog:hover{
+    color: crimson;
+}
+.collection:hover{
+    color: crimson;
+}
+.about:hover{
+    color: crimson;
+}
+
+.socials a {
+	text-decoration: none;
+	background: rgb(255, 255, 255);
+	color: #000000;
+	padding: 5px 25px;
+    position: fixed;
+    border-radius: 10px;
+    top: 16px;
+    left: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.socials a:hover{
+    text-decoration: none;
+	background: linear-gradient(rgb(0, 140, 255), rgb(0, 174, 255));
+	color: #ffffff;
+	padding: 5px 25px;
+    position: fixed;
+    border-radius: 10px;
+    top: 16px;
+    left: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
